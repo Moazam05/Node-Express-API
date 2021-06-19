@@ -1,0 +1,19 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Node Express API",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production && node server",
+    "dev": "nodemon server"
+  },
+  "author": "Moazam",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
